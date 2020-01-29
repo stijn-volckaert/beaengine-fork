@@ -1,5 +1,4 @@
 
-CC = gcc
 CFLAGS = -O3 
 CFLAGS_SO = -fPIC -shared -fvisibility=hidden -DBUILD_BEA_ENGINE_DLL
 
