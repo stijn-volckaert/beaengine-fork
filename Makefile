@@ -1,6 +1,6 @@
 
 CFLAGS = -O3 
-CFLAGS_SO = -fPIC -shared -fvisibility=hidden -DBUILD_BEA_ENGINE_DLL
+CFLAGS_SO = -fPIC -shared -fvisibility=hidden -DBUILD_BEA_ENGINE_DLL -Wl,-soname=libBeaEngineFork.so
 
 OUTDIR = build
 SRC = BeaEngine.c
